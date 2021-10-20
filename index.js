@@ -12,3 +12,5 @@ console.log(cognomeUtente)
 const colorePref = prompt("Qual è il tuo colore preferito?");
 console.log(colorePref)
 
+// Produci una password nel formato "nomecognomecolorepreferito21"
+document.getElementById("generated_password").innerHTML = nomeUtente + cognomeUtente + colorePref + 21
